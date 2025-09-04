@@ -1,0 +1,41 @@
+.h80{
+    text-align: center;
+    color: black;
+    transform: translateY(-100px)
+}
+.customer{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  
+  
+
+}
+@media (min-width: 768px) {
+  .customer {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.customer-box{
+    max-width: 300px;
+  text-align: center;
+  padding: 24px;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.customer-title{
+      font-size: 1.25rem;
+  font-weight: bold;
+  color: #1d4ed8;
+  margin-bottom: 8px;
+}
+.customer-text{
+    font-size: 1rem;
+  color: #374151;
+  line-height: 1.6;
+}

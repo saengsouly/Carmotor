@@ -1,0 +1,18 @@
+.hero {
+    background-color: #001e4c;
+    text-align: center;
+    width: 1000px;
+    height: 200px;
+    margin: 320px;
+    padding: 50px;
+    transform: translateY(-180px)
+    
+}
+.p1{
+    font-size: 20px;
+}
+.btn {
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+}
